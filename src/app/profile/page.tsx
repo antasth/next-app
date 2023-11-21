@@ -5,8 +5,6 @@ import styles from './page.module.css'
 export default function Profile() {
   const router = useRouter()
 
-  console.log(router)
-
   return (
     <div>
       <h1>PROFILES LIST</h1>
