@@ -1,3 +1,8 @@
+'use client'
+import { useParams } from 'next/navigation'
+
 export default function ProfileId() {
-  return <div>ID PROFILE PAGE</div>
+  const params = useParams()
+
+  return <div>ID PROFILE PAGE {params.id}</div>
 }
