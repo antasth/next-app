@@ -1,3 +1,8 @@
-export default function Menu() {
-  return <div>Menu</div>
+export default function Menu(props: any) {
+  return (
+    <div>
+      {props.name}
+      {props.age}
+    </div>
+  )
 }
