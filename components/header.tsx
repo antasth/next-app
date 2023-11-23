@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { FaHamburger } from 'react-icons/fa'
 
 const Header = () => {
@@ -7,10 +8,10 @@ const Header = () => {
         <FaHamburger />
       </div>
       <nav>
-        <a href="">Home</a>
-        <a href="">About Us</a>
-        <a href="">Burgers</a>
-        <a href="">Reviews</a>
+        <Link href={'/'}>Home</Link>
+        <Link href={'/about'}>About Us</Link>
+        <Link href={'/review'}>Reviews</Link>
+        <Link href={'/burgers'}>Burgers</Link>
       </nav>
     </header>
   )

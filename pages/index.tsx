@@ -1,15 +1,13 @@
-import Footer from '@/components/footer'
-import Header from '@/components/header'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main>
-      <Header />
       <h1>Main Page</h1>
-      <Footer />
+      <Link href={'/burgers'}>All burgers</Link>
     </main>
   )
 }
