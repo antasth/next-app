@@ -1,0 +1,24 @@
+.reviews {
+  flex-grow: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__list {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}

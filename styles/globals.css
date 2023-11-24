@@ -76,15 +76,6 @@ footer {
   text-decoration: underline;
 }
 
-.reviews {
-  font-size: 14px;
-}
-
-.review {
-  display: flex;
-  align-items: center;
-}
-
 .about {
   flex-grow: 1;
 }
