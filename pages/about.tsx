@@ -1,6 +1,6 @@
 function AboutPage() {
   return (
-    <div>
+    <div className="about">
       <h1>About Page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum

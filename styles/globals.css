@@ -69,6 +69,7 @@ footer {
 }
 .not-found {
   text-align: center;
+  flex-grow: 1;
 }
 .not-found a {
   color: #ffc600;
@@ -82,4 +83,8 @@ footer {
 .review {
   display: flex;
   align-items: center;
+}
+
+.about {
+  flex-grow: 1;
 }
