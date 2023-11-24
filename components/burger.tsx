@@ -1,14 +1,8 @@
 import styles from '@/styles/Burger.module.css'
+import { IBurger } from '@/types'
 import Image from 'next/image'
 import Link from 'next/link'
 
-interface IBurger {
-  id: string
-  price: string
-  name: string
-  image: string
-  desc: string
-}
 const Burger = ({ burger }: { burger: IBurger }) => {
   return (
     <Link className={styles.burgerCard} href={`/burgers/${burger.id}`}>
