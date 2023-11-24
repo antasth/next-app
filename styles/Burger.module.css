@@ -1,17 +1,23 @@
-.imageContainer {
-  max-width: 150px;
+.image {
+  max-width: 250px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
 }
 .burgerCard {
   color: #2e2e2e;
   display: grid;
   grid-template-columns: 150px 1fr;
+  align-items: center;
+  justify-items: center;
   gap: 10px;
   margin-bottom: 20px;
   overflow: hidden;
   background: #fff;
   padding: 10px;
   border-radius: 4px;
-  max-width: 500px;
+  max-width: 400px;
+  max-height: 400px;
   box-shadow: rgba(0, 0, 0, 0.043) 0px 0px 5px 3px;
 }
 .burgerCard h3 {
