@@ -10,6 +10,11 @@
   font-size: 44px;
 }
 
+.burger {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
 .text {
   font-size: 18px;
   text-align: justify;

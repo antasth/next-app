@@ -1,0 +1,16 @@
+.singleBurger {
+  margin: 0 auto;
+  flex-grow: 1;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 350px;
+  height: 300px;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}

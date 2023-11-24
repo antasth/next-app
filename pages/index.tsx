@@ -16,7 +16,12 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Main Page</h1>
         <div className={styles.burger}>
-          <Image src="/fatburger.png" alt="burger" width={400} height={300} />
+          <Image
+            src="/fatburger.png"
+            alt="burger"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
         </div>
         <p className={styles.text}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam totam,
